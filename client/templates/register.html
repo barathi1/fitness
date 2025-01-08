@@ -1,0 +1,40 @@
+<html>
+<head><title>Elements of a form</title>
+<style>
+body{
+    background-color:rgb(197, 126, 126);
+}
+.form-input,
+.form-select,
+.form-textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #3598b1;
+            border-radius: 4px;
+}
+</style></head>
+<body>
+    <h1>Fitness Tracker</h1>
+<form>
+    <label>Full name:</label>
+<input type="text" name="name" id="name" size="15" placeholder="name"required><br><br>
+<label>Email:</label>
+<input type="email" name="email" id="email" size="30" placeholder="email" required><br><br>
+<label>Phone number:</label>
+<input type="number" name="phone no" id="phone no" size="10" placeholder="phone no" required><br><br>
+<label>Age:</label>
+<input type="number" name="age" id="age" size="3" placeholder="age" required><br><br>
+<label>fitness goal:</label>
+<select id="goal" name="goal">
+    <option value="weight_loss">Weight Loss</option>
+    <option value="muscle_gain">Muscle Gain</option>
+    <option value="endurance">Endurance</option>
+    <option value="general_fitness">General Fitness</option>
+</select><br><br>
+<p><h4>Comments</h4><br>
+    <TEXTAREA name="commands" cols="40" row="5" placeholder="pleace comment here"></TEXTAREA><br><br></p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
